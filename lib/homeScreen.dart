@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:practice/imagePickupScreen.dart';
 import 'package:practice/loginscreen.dart';
+import 'package:practice/new_imagepicker.dart';
 
 import 'connectionChecking.dart';
 
@@ -36,7 +37,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                Get.to(() => ImagePickingScreen());
+                Get.to(() => Imagepickernew());
               },
             ),
             const SizedBox(

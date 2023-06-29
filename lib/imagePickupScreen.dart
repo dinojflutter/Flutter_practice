@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/container.dart';
@@ -106,8 +108,7 @@ cameraButton() {
 selectImageFromGallery() async {
   ImagePicker imagePicker = ImagePicker();
   var imageFile = await imagePicker.pickImage(source: ImageSource.gallery);
-  // image = File(imageFile!.path);
-  // setState(() {});
+  final image = File(imageFile!.path);
 }
 
 //______________________________________________SELECT IMAGE

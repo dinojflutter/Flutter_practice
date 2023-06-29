@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice/new_imagepicker.dart';
 import 'package:practice/onbordingScreens.dart';
 import 'package:get/get.dart';
 import 'package:practice/splashscreen.dart';
