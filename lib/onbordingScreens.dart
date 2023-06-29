@@ -28,7 +28,7 @@ class _OnBordingScreensState extends State<OnBordingScreens> {
               OnLastPage = (index == 2);
             });
           },
-          children: const [IntroPage1(), IntroPage2(), IntroPage3()],
+          children: const [Page1(), IntroPage2(), IntroPage3()],
         ),
         Container(
             alignment: const Alignment(0, 0.75),

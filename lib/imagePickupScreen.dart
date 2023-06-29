@@ -1,4 +1,3 @@
-import 'dart:html';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/container.dart';
@@ -42,13 +41,15 @@ withoutSelectedImage() {
 
 //_________________________________________WITH SELECTED IMAGE
 withSelectedImage() {
-  return Container(
-    height: 250,
-    color: Colors.orangeAccent,
-    // child: Image.file(
-    //   image!,
-    //     fit: BoxFit.fill,
-    // )
+  return ClipOval(
+    child: Container(
+      height: 250,
+      color: Colors.orangeAccent,
+      // child: Image.file(
+      //   image!,
+      //     fit: BoxFit.fill,
+      // )
+    ),
   );
 }
 
